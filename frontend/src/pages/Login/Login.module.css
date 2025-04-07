@@ -1,0 +1,98 @@
+/* Container */
+.container {
+  width: 100%;
+  /* max-width: 400px; */
+  height: 100%;
+  background: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Title */
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Text */
+.text {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+/* Links */
+.link {
+  color: orange;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+.form_container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Input Group */
+.input_group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+}
+
+.input_group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #adb5bd;
+  border-radius: 8px;
+  background-color: #f8f8f8f8;
+  font-size: 14px;
+}
+.input_group:hover {
+  cursor: pointer;
+}
+
+.input_group:focus {
+  border: 1px solid rgb(70, 15, 15);
+  border-radius: 8px;
+  outline: none;
+}
+
+/* Button */
+.btn {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  background: #516cf0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 25px;
+  /* text-align: center; */
+
+  margin-bottom: 5px;
+}
+
+.btn:hover {
+  background: darkorange;
+}
+.form_footer {
+  margin-top: 10px;
+  font-size: 14px;
+  display: block;
+}
+form p {
+  /* float: right; */
+}

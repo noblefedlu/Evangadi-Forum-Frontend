@@ -1,0 +1,94 @@
+/* Main container styling */
+.ask-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Guidelines Section */
+.question-guidelines {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.question-guidelines h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.question-guidelines ul {
+  list-style: disc;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.question-guidelines li {
+  margin-bottom: 5px;
+}
+
+/* Form Container */
+.ask-form-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.ask-form-container h3 {
+  margin-bottom: 5px;
+}
+
+.go-to-questions {
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.ask-input,
+.ask-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.ask-textarea {
+  height: 100px;
+}
+
+/* Submit Button */
+.ask-submit-btn {
+  padding: 10px 15px;
+  background-color: #516cf0;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.ask-submit-btn:hover {
+  background-color: orange;
+}
+
+@media (max-width: 600px) {
+  .ask-container {
+    width: 90%;
+  }
+
+  .ask-input,
+  .ask-textarea {
+    font-size: 14px;
+  }
+
+  .ask-submit-btn {
+    font-size: 14px;
+  }
+}
